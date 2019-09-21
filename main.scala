@@ -89,18 +89,6 @@ object ticTacToe {
       return false
   }
 
-  // def win_check(pos: Array[String], user_id: String): Boolean={
-  //   // Checks to see if someone has won
-  //   //   Args:
-  //   //     pos = board position
-  //   // user = user letter ('x' or 'o')
-  //   var user = if (user_id == "1") "x" else "o"
-  //   if ((pos(0) == pos(1) == pos(2) == user) || (pos(3) == pos(4) == pos(5) == user) || (pos(6) == pos(7) == pos(8) == user) || (pos(0) == pos(3) == pos(6) == user) || (pos(1) == pos(4) == pos(7) == user) || (pos(2) == pos(5) == pos(8) == user) || (pos(0) == pos(4) == pos(8) == user) || (pos(2) == pos(4) == pos(6) == user)){
-  //     return true
-  //   }
-  //   return false
-  // }
-
   def reset_board(): Array[String]={
     var board = Array("1", "2", "3", "4", "5", "6", "7", "8", "9")
     return board
